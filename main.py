@@ -55,20 +55,21 @@ def home():
 
         
         html += f"""
-            <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-                        background-color: #e6f2ff; 
+           <b> <div style="font-family:   Arial, Helvetica, sans-serif; 
+                        background-color: #e6f2ff; font-weight: 700; /* Bold */
+color: #000000;   /* Black */
                         margin: 40px auto; 
                         padding: 25px; 
                         max-width: 800px;
                         border-radius: 10px; 
                         border: 1px solid #99ccff;
-                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
+                        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"> </b>
 
-                <h3 style="color: #003366; font-size: 22px; margin-bottom: 15px;">✨ Result</h3>
+                <h3 style="color: #000000; font-size: 22px; margin-bottom: 15px;">✨ Result</h3>
 
                 <pre style="white-space: pre-wrap; font-size: 16px; color: #333; line-height: 1.6; margin-bottom: 20px;">{result}</pre>
 
-                <p style="color: #5C5C5C; font-size: 15px; margin-top: 10px;">
+                <p style="color: #00000; font-size: 15px; margin-top: 10px;">
                     <b>🚀 Ascend today — because your future is worth planning!</b>
                 </p>
             </div>
